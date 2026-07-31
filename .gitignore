@@ -14,3 +14,4 @@ __pycache__/
 
 # Configuración de VS Code (opcional)
 .vscode/
+*.mp3
