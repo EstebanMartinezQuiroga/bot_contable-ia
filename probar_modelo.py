@@ -7,7 +7,7 @@ load_dotenv()
 client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 response = client.models.generate_content(
-    model="gemini-flash-latest",
+    model="gemini-3.6-flash",
     contents="Responde únicamente con la palabra 'Hola'."
 )
 
